@@ -1,0 +1,522 @@
+* {box-sizing: border-box;}
+
+
+body {
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	background-color: #f5f5f5;
+	margin: 0px;
+	color: #283739;
+	display: inline-block;
+	
+}
+
+h1 {
+	font-family: arial;
+	
+}
+
+h2 {
+	color: ;
+}
+
+a {
+	text-decoration: none;
+	color: #283739;
+	cursor: url(tulip.png);
+}
+
+
+main h1 {
+	margin-left: 40px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 50px;	
+}
+
+
+ /*header*/
+ 
+.header {
+	margin: 0;
+	width: 100%;
+	height: 80px;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	z-index: 2;
+	position: fixed;
+	background-color: #f5f5f5;
+}
+
+
+#logo_header, #about, #catalog_header, #contacts_header, #blog_header {
+	text-align: center;
+	padding: 3px 3px;
+}
+
+#about, #catalog_header,  #contacts_header  {
+	margin: 10px 20px;
+}
+
+#about:hover {
+	background: #a9c52f;
+	color: #f5f5f5;
+	border: 1px solid #f5f5f5;
+	border-radius: 15px;
+}
+
+#catalog_header:hover {
+	background: #a9c52f;
+	color: #f5f5f5;
+	border: 1px solid #f5f5f5;
+	border-radius: 15px;
+}
+
+#contacts_header:hover {
+	background: #a9c52f;
+	color: #f5f5f5;
+	border: 1px solid #f5f5f5;
+	border-radius: 15px;
+}
+
+#logo_header {
+	margin: 10px auto 10px 10px;
+	font-size: 25px;
+	
+}
+
+
+
+#blog_header {
+	margin: 10px 10px 10px auto;
+	background-color: #a9c52f;
+	width: 60px;
+	height: auto;
+	border-radius: 15px;
+	color: ;
+}
+
+#blog_header:hover {
+	color: #f5f5f5;
+}
+/*hero*/
+
+.hero {
+	margin: 80 0;
+	width: 100%;
+	height: 600px;
+	padding: 100px 20px 20px 20px;
+	
+    
+}
+
+.hero_text {
+	margin: auto;
+	padding: 300px 10px 60px 10px;
+	display: flex;
+	justify-content: space-between;
+	left: 0;
+	background: url("flower2.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: cover; /* Растягиваем  фон по высоте и ширине */
+    background-position: center; /* Позиция фона по центру */
+    height: 480px; /* Высота блока */
+	border-radius: 15px;
+	
+}
+
+.hero_text h2 {
+	padding: 0px 5px 5px 5px;
+	margin-left: 60px;
+}
+
+.hero_text p {
+	padding: 5px 80px 5px 5px;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+div.hero_button p {
+	margin-right: 50px;
+	background-color: #f5f5f5;
+	width: 60px;
+	padding: 0;
+	height: 27px;
+	border-radius: 15px;
+	color: #283739;
+	text-align: center;
+	font-size: 16px;
+	border: 1px solid #283739;
+}
+
+div.hero_button p:hover {
+	background: #a9c52f;
+	color: #f5f5f5;
+	border: 1px solid #f5f5f5;
+}
+/*popular*/
+
+.popular {
+	margin: 0;
+	width: 100%;
+	height: 600px;
+	padding: 20px 20px 20px 20px;
+}
+
+#heart {
+	color: #283739;
+}
+#pop_products p {
+	margin: 0 0 20px 40px;
+	padding: 0;
+	font-weight: bold;
+	font-size: 25px;
+	color: #a9c52f;
+}
+
+#pop_products h1 {
+	
+}
+	
+
+#popular_list {
+	display: flex;
+	justify-content: center;
+	
+}
+
+#pop_one, #pop_two, #pop_three, #pop_four  {
+	height: 320px;
+	width: 240px;
+	margin: auto 40px;
+}
+
+#pop_one_img {
+	height: 280px;
+	margin: 5px;
+	background: url("flower1.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: cover; /* Растягиваем  фон по высоте и ширине */
+    background-position: center; /* Позиция фона по центру */
+    border-radius: 5px;
+}
+
+#pop_two_img {
+	height: 280px;
+	margin: 5px;
+	background: url("flower2.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: cover; /* Растягиваем  фон по высоте и ширине */
+    background-position: center; /* Позиция фона по центру */
+    border-radius: 5px;
+}
+
+#pop_three_img {
+	height: 280px;
+	margin: 5px;
+	background: url("flower3.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: cover; /* Растягиваем  фон по высоте и ширине */
+    background-position: center; /* Позиция фона по центру */
+    border-radius: 5px;
+}
+
+#pop_four_img {
+	height: 280px;
+	margin: 5px;
+	background: url("flower4.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: cover; /* Растягиваем  фон по высоте и ширине */
+    background-position: center; /* Позиция фона по центру */
+    border-radius: 5px;
+}
+
+#pop_5_img {
+	height: 280px;
+	margin: 5px;
+	background: url("flower5.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: cover; /* Растягиваем  фон по высоте и ширине */
+    background-position: center; /* Позиция фона по центру */
+    border-radius: 5px;
+}
+
+#pop_6_img {
+	height: 280px;
+	margin: 5px;
+	background: url("flower6.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: cover; /* Растягиваем  фон по высоте и ширине */
+    background-position: center; /* Позиция фона по центру */
+    border-radius: 5px;
+}
+
+#pop_7_img {
+	height: 280px;
+	margin: 5px;
+	background: url("flower7.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: cover; /* Растягиваем  фон по высоте и ширине */
+    background-position: center; /* Позиция фона по центру */
+    border-radius: 5px;
+}
+
+#pop_8_img {
+	height: 280px;
+	margin: 5px;
+	background: url("flower8.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: cover; /* Растягиваем  фон по высоте и ширине */
+    background-position: center; /* Позиция фона по центру */
+    border-radius: 5px;
+}
+
+#pop_one_text, #pop_two_text, #pop_three_text, #pop_four_text {
+	width: 180px;
+	text-align: justify;
+	padding: 5px;
+	color: #2c5d63;
+}
+
+/*catalog*/
+
+.catalog {
+	margin: 0;
+	
+	width: 100%;
+	height: 500px;
+	padding: 
+}
+
+.catalog_container {
+	display: block;
+}
+
+.catalog h1 {
+	
+}
+
+#upper_horiz_catalog {
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+}
+
+#upper_horiz_catalog h4 {
+	width: 200px;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #a9c52f;
+	border-radius: 15px;
+	margin: 10px 40px;
+}
+
+#upper_horiz_catalog h4:hover {
+	background-color: #a9c52f;
+	color: #f5f5f5;
+}
+
+.cat_img {
+	height: 280px;
+	margin: 0;
+	
+	background: url("leaf.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: cover; /* Растягиваем  фон по высоте и ширине */
+    background-position: center;
+}
+
+#under_horiz_catalog {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+#under_horiz_catalog h4 {
+	width: 230px;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #a9c52f;
+	border-radius: 15px;
+	margin: 10px 40px;
+}
+
+#under_horiz_catalog h4:hover {
+	background-color: #a9c52f;
+	color: #f5f5f5;
+}
+/*blog*/
+
+#blog {
+	margin: 0;
+	width: 100%;
+	height: 600px;
+	padding: 0px 20px 20px 20px;
+	
+}
+
+#blog_large {
+	position: absolute;
+	font-size: 470px;
+	font-family: Verdana;
+	color: #153213;
+	text-align: center; 
+	
+}
+
+#blog_articles {
+	display: flex;
+	justify-content: center;
+	font-size: 13px;
+}
+
+#blog_articles h5 {
+	font-size: 18px;
+	color: #a9c52f;
+	margin: 0;
+	padding-top: 10px;
+}
+
+#blog_articles p {
+	font-weight: bold;
+}
+
+#bl_one, #bl_two, #bl_three {
+	height: 280px;
+	width: 260px;
+	margin: 370px 70px 60px;
+	border: 2px solid #a9c52f;
+	z-index: 1;
+	border-radius: 30px;
+	background-color: #F5F5F5;
+	padding: 10px;
+	padding-top: 25px;
+}
+
+
+
+#bl_one_img {
+	height: 130px;
+	background: url("bl_one_img.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: cover; /* Растягиваем  фон по высоте и ширине */
+    background-position: center;
+	border-radius: 30px;
+}
+
+#bl_two_img {
+	height: 130px;
+	background: url("bl_two_img.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: cover; /* Растягиваем  фон по высоте и ширине */
+    background-position: center;
+	border-radius: 30px;
+}
+
+#bl_three_img {
+	height: 130px;
+	background: url("bl_three_img.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: cover; /* Растягиваем  фон по высоте и ширине */
+    background-position: center;
+	border-radius: 30px;
+}
+
+#bl_one_text_tiny, #bl_two_text_tiny, #bl_three_text_tiny {
+	word-spacing: 155px;
+	color: #a9c52f;
+	font-weight: bold;
+}
+
+/*contact*/
+
+.contact {
+	margin: 0;
+	width: 100%;
+	height: 600px;
+	padding: 80px 20px 20px 20px;
+	display: flex;
+	justify-content: center;
+}
+
+#left {
+	display: block;
+	margin-left: 100px;
+}
+
+#left_tg, #left_phone, #left_map {
+	display: flex;
+	justify-content: flex-start;
+	color: #a9c52f;
+	font-weight: bold;
+	margin: 20px 0px 20px 120px;
+	height: 40px;
+}
+
+.right {
+	height: 350px;
+	width: 350px;
+	background: url("contacts.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: cover; /* Растягиваем  фон по высоте и ширине */
+    background-position: center;
+	margin: 40px 130px 40px 240px;
+}
+ 
+.contact img {
+	margin-top: 15px;
+}
+	
+.contact p {
+	padding-left: 10px;
+}
+
+.foot_logo {
+	margin: 20px;
+}
+
+footer {
+	margin: auto;
+	margin-bottom: 20px;
+	width: 98%;
+	height: 200px;
+	background-color: #a9c52f;
+	color: #f5f5f5;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+
+}
+#foot_1, #foot_2, #foot_3, #foot_4 {
+	display: block;
+	margin: 0;
+	 
+}
+
+	
+/*отдельная страница POPULAR*/
+
+#pop_products_otd {
+	margin: 80 0;
+	width: 100%;
+	height: 600px;
+	padding: 100px 20px 20px 20px;
+}
+
+#pop_products_otd p {
+	color: #a9c52f;
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 0;
+}
+
+#pop_products_otd h1 {
+	margin-bottom: 0;
+}
+ 
